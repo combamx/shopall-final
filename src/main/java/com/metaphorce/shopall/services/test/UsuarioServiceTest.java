@@ -24,7 +24,7 @@ class UsuarioServiceTest {
     private UsuarioService usuarioService;
 
     UsuarioServiceTest() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
     }
 
     @Test

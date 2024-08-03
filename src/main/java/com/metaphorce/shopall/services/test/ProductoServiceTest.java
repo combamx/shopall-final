@@ -25,7 +25,7 @@ class ProductoServiceTest {
     private ProductoService productoService;
 
     ProductoServiceTest() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
     }
 
     @Test

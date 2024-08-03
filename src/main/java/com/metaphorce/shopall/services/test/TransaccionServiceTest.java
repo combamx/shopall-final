@@ -24,7 +24,7 @@ class TransaccionServiceTest {
     private TransaccionService transaccionService;
 
     TransaccionServiceTest() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
     }
 
     @Test

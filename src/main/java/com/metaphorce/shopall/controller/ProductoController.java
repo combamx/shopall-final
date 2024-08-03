@@ -1,13 +1,11 @@
 package com.metaphorce.shopall.controller;
 
 import com.metaphorce.shopall.exception.InvalidProductoDataException;
-import com.metaphorce.shopall.exception.InvalidUsuarioDataException;
 import com.metaphorce.shopall.models.Producto;
 import com.metaphorce.shopall.models.request.ProductoRequest;
 import com.metaphorce.shopall.models.response.ProductoResponse;
 import com.metaphorce.shopall.services.ProductoService;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import net.bytebuddy.agent.VirtualMachine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +13,6 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
-import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.List;
 import java.util.Optional;
