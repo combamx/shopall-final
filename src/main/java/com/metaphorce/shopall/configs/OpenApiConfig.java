@@ -10,9 +10,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "ShopAll",
+                title = "E-ShopMart",
                 version = "1.0.0",
-                description = "ShopAll es una plataforma de comercio electrónico diseñada para ofrecer una amplia variedad de productos a consumidores de todo el mundo. La plataforma se enfoca en proporcionar una experiencia de compra intuitiva y segura, y está destinada a crecer a medida que más vendedores y compradores se unan a ella."
+                description = "E-ShopMart es una plataforma de comercio electrónico diseñada para ofrecer una amplia variedad de productos a consumidores de todo el mundo. La plataforma se enfoca en proporcionar una experiencia de compra intuitiva y segura, y está destinada a crecer a medida que más vendedores y compradores se unan a ella."
         )
 
 )
